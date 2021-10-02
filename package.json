@@ -1,0 +1,26 @@
+{
+  "name": "movc",
+  "version": "0.0.1",
+  "description": "Map Of Virtual Countries",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-recaptcha": "^5.0.2",
+    "js-sha3": "^0.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "money": "^0.2.0",
+    "mongodb": "^3.6.8",
+    "node-fetch": "^2.6.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.0.1",
+    "vk-io": "^4.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "artegoser",
+  "license": "MIT"
+}
